@@ -149,6 +149,7 @@ getValues(formEl){
                             default:
                                 field.value = json[name];
                     }}}
+                this.formUpdateEl.querySelector("photo").src = json._photo;
                 this.showPanelUpdate();
             });}
         showPanelCreate(){
