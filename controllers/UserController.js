@@ -40,7 +40,7 @@ class UserController {
             });
         });
     }
-    onSubmit(){ //salvar novo usuario, adiciona linha, adiciona evento no botao editar
+    onSubmit(){ 
     this.formEl.addEventListener("submit", event => {
         event.preventDefault();
         let btn = this.formEl.querySelector("[type=submit]");
